@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Optionally, apply styles to the article or image */
+article {
+    text-align: center; /* Center-align text or inline elements in the article */
+}
+
+main img {
+    max-width: 80%; /* Ensures the image scales if too large */
+    min-width: 40%; 
+    height: auto;    /* Maintain aspect ratio */
+}
+
+footer img {
+    width: 5%;
+    height: auto;
+}
+
+footer {
+    padding: 2rem;
+}
